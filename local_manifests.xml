@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="sohilmahto0410/device_xiaomi_camellia"
+  <project name="device_xiaomi_camellia"
            path="device/xiaomi/camellia"
-           remote="github"
+           remote="sohilmahto0410"
            revision="lineage-23.2" />
 
 </manifest>
