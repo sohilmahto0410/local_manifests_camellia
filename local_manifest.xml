@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote  name="ghub"
+                fetch="https://github.com" />
+
+<!-- Device Trees --> 
+<project path="device/xiaomi/camellia" name="sohilmahto0410/device_xiaomi_camellia" remote="ghub" revision="lineage-23.2" />
+
+<!-- Vendor Trees -->
+<project path="vendor/xiaomi/camellia" name="sohilmahto0410/vendor_xiaomi_camellia" remote="ghub" revision="main" clone-depth="1" />
+
+<!-- Kernel Trees-->
+<project path="device/xiaomi/camellia-kernel" name="dm700-devs/device_xiaomi_camellia-kernel" remote="ghub" revision="lineage-23.2" clone-depth="1" />
+
+  
+ <!-- Hardware Mediatek--> 
+
+
+<project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="ghub" revision="lineage-23.2" />
+<project path="vendor/mediatek/ims" name="techyminati/android_vendor_mediatek_ims" remote="ghub" revision="android-16-qpr2" />
+<project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="ghub" revision="lineage-23.2" />
+
+<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-23.2" />
+
+  
+</manifest>

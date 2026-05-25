@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote name="sohilmahto0410" fetch="https://github.com/sohilmahto0410" clone-depth="1" />
-  <project name="device_xiaomi_camellia"
-           path="device/xiaomi/camellia"
-           remote="sohilmahto0410"
-           revision="lineage-23.2" />
-
-</manifest>
